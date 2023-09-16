@@ -91,7 +91,9 @@ function MovieDetails() {
                 {movieDetails.release_date}
               </li>
               <li>{rating}</li>
-              <li data-testid="movie-runtime">2h 10m</li>
+              <li data-testid="movie-runtime">
+                {movieDetails.runtime} minutes
+              </li>
             </ul>
           </div>
 
