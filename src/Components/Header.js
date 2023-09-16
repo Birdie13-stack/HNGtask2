@@ -11,6 +11,15 @@ function Header() {
   return (
     <div className="header">
       <div className="header-text">
+        <nav>
+          <img src={logo} alt="" />
+
+          <input
+            type="text"
+            id="search-input"
+            placeholder="What do you want to watch?"
+          />
+        </nav>
         <h1>John Wick 3: Parabellum</h1>
         <div className="rating">
           <p>
