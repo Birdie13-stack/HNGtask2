@@ -22,7 +22,7 @@ function MovieDetails() {
   }, [id]);
 
   if (!movieDetails) {
-    return <div>Loading.....</div>;
+    return <h1 className="loading">Loading.....</h1>;
   }
 
   let rating = undefined;

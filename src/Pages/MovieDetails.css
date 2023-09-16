@@ -177,7 +177,6 @@
 .movie-preview p {
   color: #333;
   font-family: Poppins;
-  /* width: 50%; */
 }
 .summary {
   width: 50%;
@@ -234,6 +233,12 @@ div .genre {
   padding-left: 20px;
 }
 
+.loading {
+  text-align: center;
+  color: #b91c1c;
+  font-size: 2rem;
+}
+
 @media (max-width: 1024px) {
   .main-info {
     flex-direction: column;
@@ -252,5 +257,11 @@ div .genre {
   .movie-preview ul li {
     display: block;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .summary {
+    width: 90%;
   }
 }

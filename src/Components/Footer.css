@@ -42,3 +42,12 @@
   font-weight: 700;
   line-height: normal;
 }
+
+@media (max-width: 768px) {
+  .socials {
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
