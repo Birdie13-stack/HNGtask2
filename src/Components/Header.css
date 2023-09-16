@@ -95,6 +95,12 @@ h1 {
   font-weight: 700;
 }
 
+@media (max-width: 1024px) {
+  .rating {
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 768px) {
   #search-input {
     width: 300px;
@@ -102,6 +108,6 @@ h1 {
   }
 
   .rating {
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
