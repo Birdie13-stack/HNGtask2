@@ -83,11 +83,15 @@ function MovieDetails() {
 
         <div className="main-info">
           <div className="title">
-            <h1 className="movie-name">{movieDetails.title}</h1>
+            <h1 className="movie-name" data-testid="movie-title">
+              {movieDetails.title}
+            </h1>
             <ul>
-              <li>{movieDetails.releaseDate}</li>
+              <li data-testid="movie-release-date">
+                {movieDetails.release_date}
+              </li>
               <li>{rating}</li>
-              <li>2h 10m</li>
+              <li data-testid="movie-runtime">2h 10m</li>
             </ul>
           </div>
 
@@ -97,7 +101,9 @@ function MovieDetails() {
           </div>
           <p className="reviews">⭐️ 8.5|350k</p>
         </div>
-        <p className="summary">{movieDetails.overview}</p>
+        <p className="summary" data-testid="movie-overview">
+          {movieDetails.overview}
+        </p>
 
         <p className="credits">
           Director:

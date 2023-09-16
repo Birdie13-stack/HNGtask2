@@ -185,6 +185,7 @@
 .movie-preview ul li {
   display: inline;
   margin-right: 20px;
+  font-weight: 600;
 }
 
 .genres {
@@ -246,5 +247,10 @@ div .genre {
   .trailer-thumbnail {
     width: auto;
     min-height: 500px;
+  }
+
+  .movie-preview ul li {
+    display: block;
+    margin-bottom: 20px;
   }
 }
